@@ -4,8 +4,8 @@ local frame = CreateFrame("Frame", name .. "EventFrame")
 frame:SetScript("OnEvent", function(self, event, ...)
     AddOn[event](self, ...)
    end)
-frame:RegisterEvent("PLAYER_ENTERING_WORLD") -- we don't want the button to come back after reloadUI or logging/exiting out
+frame:RegisterEvent("PLAYER_LOGIN")
 
-function AddOn:PLAYER_ENTERING_WORLD()
+function AddOn:PLAYER_LOGIN()
     _G["MiniMapWorldMapButton"]:Hide() -- therefore hide it no matter what!
 end
