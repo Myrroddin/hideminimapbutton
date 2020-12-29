@@ -1,9 +1,16 @@
-## Interface: 90001
+#@retail@
+## Interface: 90002
+#@end-retail@
+#@non-retail@
+# ## Interface: 11306
+#@end-non-retail@
 ## Title: Hide World Map Minimap Button
 ## Notes: Disables the world map button on the minimap
 ## Author: Paul Vandersypen
 ## Version: @project-version@
 ## X-Copyright: Copyright (c) 2019 - 2020 Paul Vandersypen. All Rights Reserved
 ## X-Category: Map & Minimap
+## X-Curse-Project-ID: 344084
+## X-WoWI-ID: 25353
 
 Hide.lua
