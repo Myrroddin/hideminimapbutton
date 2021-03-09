@@ -1,5 +1,5 @@
 #@retail@
-## Interface: 90002
+## Interface: 90005
 #@end-retail@
 #@non-retail@
 # ## Interface: 11306
@@ -8,7 +8,7 @@
 ## Notes: Disables the world map button on the minimap
 ## Author: Paul Vandersypen
 ## Version: @project-version@
-## X-Copyright: Copyright (c) 2019 - 2020 Paul Vandersypen. All Rights Reserved
+## X-Copyright: Copyright (c) 2019 - 2021 Paul Vandersypen. All Rights Reserved
 ## X-Category: Map & Minimap
 ## X-Curse-Project-ID: 344084
 ## X-WoWI-ID: 25353
