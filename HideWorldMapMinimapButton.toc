@@ -9,5 +9,6 @@
 ## X-Category: Map & Minimap
 ## X-Curse-Project-ID: 344084
 ## X-WoWI-ID: 25353
+## X-Wago-ID: Qb6mVyKP
 
 Hide.lua
