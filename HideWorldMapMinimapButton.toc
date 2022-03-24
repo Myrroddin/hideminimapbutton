@@ -1,5 +1,5 @@
-## Interface-Retail: 90200
-## Interface-Classic: 11401
+## Interface: 90200
+## Interface-Classic: 11402
 ## Interface-BCC: 20503
 ## Title: Hide World Map Minimap Button
 ## Notes: Disables the world map button on the minimap
