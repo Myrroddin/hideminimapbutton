@@ -6,6 +6,6 @@ AddOn.frame:SetScript("OnEvent", function(self, event, ...)
     AddOn[event](self, ...)
 end)
 
-function AddOn:ADDON_LOADED(isInitialLogin, isReloadingUi)
+function AddOn:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi)
     _G["MiniMapWorldMapButton"]:Hide()
 end
