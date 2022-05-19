@@ -1,11 +1,14 @@
 local name, AddOn = ...
 
-local frame = CreateFrame("Frame", name .. "EventFrame")
-frame:SetScript("OnEvent", function(self, event, ...)
+AddOn.frame = CreateFrame("Frame")
+AddOn.frame:RegisterEvent("ADDON_LOADED")
+AddOn.frame:SetScript("OnEvent", function(self, event, ...)
     AddOn[event](self, ...)
-   end)
-frame:RegisterEvent("PLAYER_LOGIN")
+end)
 
-function AddOn:PLAYER_LOGIN()
-    _G["MiniMapWorldMapButton"]:Hide() -- therefore hide it no matter what!
+function AddOn:ADDON_LOADED(arg1)
+    if arg1 ==  name then
+       AddOn.frame:UnregisterEvent("ADDON_LOADED")
+       _G["MiniMapWorldMapButton"]:Hide() -- therefore hide it no matter what!
+    end
 end

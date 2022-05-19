@@ -1,2 +1,3 @@
 package-as: HideWorldMapMinimapButton
 wowi-archive-previous: no
+enable-toc-creation: yes
