@@ -1,6 +1,6 @@
 ## Interface: 30403
 ## Interface-Wrath: 30403
-## Interface-Classic: 11500
+## Interface-Classic: 11501
 ## Title: Hide World Map Minimap Button
 ## Notes: Disables the world map button on the minimap
 ## Author: Paul Vandersypen
