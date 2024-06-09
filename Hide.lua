@@ -1,3 +1,4 @@
+---@type string, table
 local name, AddOn = ...
 
 if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then

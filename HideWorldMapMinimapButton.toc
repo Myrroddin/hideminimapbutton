@@ -1,5 +1,4 @@
-## Interface: 11502
-## Interface-Cata: 40400
+## Interface: 11502, 40400
 ## Title: Hide World Map Minimap Button
 ## Notes: Disables the world map button on the minimap
 ## Author: Paul Vandersypen
