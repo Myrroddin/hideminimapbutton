@@ -1,8 +1,7 @@
----@type string, table
 local name, AddOn = ...
 
-if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
-    error(name .. " does NOT work for retail!", 2)
+if WOW_PROJECT_ID ~= WOW_PROJECT_MISTS_CLASSIC then
+    error(name .. " does NOT work for this game version", 2)
     return
 end
 
