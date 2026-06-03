@@ -1,0 +1,22 @@
+# World of Warcraft addon
+# Ignore local editor/workspace settings
+.vscode/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Lua/EmmyLua language server cache and temp files
+.EmmyLua/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Optional package artifacts (uncomment if you create release zips in-repo)
+# *.zip

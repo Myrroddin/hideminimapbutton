@@ -1,10 +1,20 @@
-## Interface: 50502
+## Interface: 50504
 ## Title: Hide World Map Minimap Button
 ## Notes: Disables the world map button on the minimap
 ## Author: Paul Vandersypen
 ## Version: @project-version@
-## X-Copyright: Copyright (c) 2019-2025 Paul Vandersypen. All Rights Reserved
-## X-Category: Map & Minimap
+## X-Copyright: Copyright (c) 2019-2026 Paul Vandersypen. All Rights Reserved
+## Category: Map
+## Category-deDE: Karte
+## Category-esES: Mapa
+## Category-esMX: Mapa
+## Category-frFR: Carte
+## Category-itIT: Mappa
+## Category-koKR: 지도
+## Category-ptBR: Mapa
+## Category-ruRU: Карта
+## Category-zhCN: 地图
+## Category-zhTW: 地圖
 ## X-Curse-Project-ID: 344084
 ## X-WoWI-ID: 25353
 ## X-Wago-ID: Qb6mVyKP
